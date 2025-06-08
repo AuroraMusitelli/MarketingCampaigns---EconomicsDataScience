@@ -6,5 +6,5 @@
 [![GitHub](https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white)](https://github.com/auroraMusitelli)
 
 ## 📌 Education
-Master's Degree, Statistical and Economic Sciences (LM-82) | University of Milano-Bicocca (Sept 2023 - Present)
-Bachelor's Degree, Statistics and Information Management (L-41) | University of Milano-Bicocca (Oct 2019 - Jan 2023)
+* Master's Degree, Statistical and Economic Sciences (LM-82) | University of Milano-Bicocca (Sept 2023 - Present)
+* Bachelor's Degree, Statistics and Information Management (L-41) | University of Milano-Bicocca (Oct 2019 - Jan 2023)
