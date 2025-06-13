@@ -20,7 +20,7 @@
 **Business Development Analyst** CMS SpA *(Feb 2023 – Sept 2023)*  
 
 ## 📌 University Projects
-## 📄 Chatbot creation "MoodUp"
+📄 **Chatbot creation "MoodUp"**
 Team project focusing on supervised learning and Word Embedding techniques for unstructured data analysis. The main goal was to develop a chatbot called 'MoodUp' that can recommend songs based on the mood expressed by users through three words entered. A dataset of song lyrics of different genres, published between 1950 and 2019. After using a Random Forest model to identify keywords in the lyrics, the most relevant songs were selected and a logistic model was built to interpret the results.
 
 Personal GitHub (Italian version)
