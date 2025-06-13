@@ -5,9 +5,9 @@
 [![Gmail](https://img.shields.io/badge/Gmail-red?logo=gmail&logoColor=white)](mailto:musitelliaurora@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white)](https://github.com/auroraMusitelli)
 
-Hi, I'm Aurora Musitelli!
-*Passionate about Business Analytics, with a solid background in statistics. I enjoy finding insights in data and transforming them into concrete strategies.
-*In my free time? Mountains, photography and sports help me maintain a balance between numbers and nature!
+**Hi, I'm Aurora Musitelli!**
+* Passionate about Business Analytics, with a solid background in statistics. I enjoy finding insights in data and transforming them into concrete strategies.
+* In my free time? Mountains, photography and sports help me maintain a balance between numbers and nature!
 
 ## 🎓 Education
 * Master's Degree, Statistical and Economic Sciences (LM-82) | University of Milano-Bicocca (Sept 2023 - Present)
