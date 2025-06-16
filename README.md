@@ -7,7 +7,7 @@
 
 **Hi, I'm Aurora Musitelli!**
 * Passionate about Business Analytics, with a solid background in statistics. I enjoy finding insights in data and transforming them into concrete strategies.
-* In my free time? Mountains, photography and sports help me maintain a balance between numbers and nature!
+* In my free time? Mountains, photography and sports help me maintain a balance!
 
 ## 🎓 Education
 * Master's Degree, Statistical and Economic Sciences (LM-82) | University of Milano-Bicocca (Sept 2023 - Present)
