@@ -28,3 +28,10 @@ Team project focusing on supervised learning and Word Embedding techniques for u
 **MoodUp (Italian version)** [See the project here](https://github.com/auroraMusitelli/Portfolio/blob/main/MoodUp_report.pdf)
 
 📎 Tags: Random Forest | Neural Networks | Word Embedding 
+
+
+**📄Times series of energy consumption in the United States**
+
+**Times series (Italian version)** [See the project here](https://github.com/auroraMusitelli/Portfolio/blob/main/TimesSeriesenergyconsumptionUSA.pdf)
+
+📎 Tags: Times Series | ARIMA | SARIMA models | RegARIMA
