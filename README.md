@@ -26,9 +26,11 @@
 Team project focusing on supervised learning and Word Embedding techniques for unstructured data analysis. The main goal was to develop a chatbot called 'MoodUp' that can recommend songs based on the mood expressed by users through three words entered. A dataset of song lyrics of different genres, published between 1950 and 2019. After using a Random Forest model to identify keywords in the lyrics, the most relevant songs were selected and a logistic model was built to interpret the results.
 
 **MoodUp (Italian version)** [See the project here](https://github.com/auroraMusitelli/Portfolio/blob/main/MoodUp_report.pdf)
+
 📎 Tags: Random Forest | Neural Networks | Word Embedding 
-*
-*
+
+---
+
 **📄Times series of energy consumption in the United States**
 
 **Times series (Italian version)** [See the project here](https://github.com/auroraMusitelli/Portfolio/blob/main/TimesSeriesEnergyConsumption_USA.pdf)
