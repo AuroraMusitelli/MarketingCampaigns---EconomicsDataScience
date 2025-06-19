@@ -13,11 +13,17 @@
 * Master's Degree, Statistical and Economic Sciences (LM-82) | University of Milano-Bicocca (Sept 2023 - Present)
 * Bachelor's Degree, Statistics (L-41) | University of Milano-Bicocca (Oct 2019 - Jan 2023)
 
+---
+
 ## 📌 Technical Skills
 * Languages & Tools: R, Python
 
+---
+
 ## 📌 Work Experience
 **Business Development Analyst** CMS SpA *(Feb 2023 – Sept 2023)*  
+
+---
 
 ## 📌 University Projects
 
