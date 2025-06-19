@@ -32,7 +32,7 @@ Team project focusing on supervised learning and Word Embedding techniques for u
 
 📎 Tags: Random Forest | Neural Networks | Word Embedding 
 
-⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯
+> 
 
 **📄Times series of energy consumption in the United States**
 
