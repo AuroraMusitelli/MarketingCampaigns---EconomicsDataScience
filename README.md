@@ -10,7 +10,7 @@
 * In my free time? Mountains, photography and sports help me maintain a balance!
 
 ## 🎓 Education
-* Master's Degree, Statistical and Economic Sciences (LM-82) | University of Milano-Bicocca (Sept 2023 - Present)
+* Master's Degree, Statistical and Economic Sciences (LM-82) | University of Milano-Bicocca (Oct 2023 - Present)
 * Bachelor's Degree, Statistics (L-41) | University of Milano-Bicocca (Oct 2019 - Jan 2023)
 
 
