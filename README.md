@@ -24,7 +24,7 @@
 
 ## 📌 University Projects
 
-**📄Chatbot creation "MoodUp"**
+**📄Machine Learning: Chatbot "MoodUp"**
 
 Team project focusing on supervised learning and Word Embedding techniques for unstructured data analysis. The main goal was to develop a chatbot called 'MoodUp' that can recommend songs based on the mood expressed by users through three words entered. A dataset of song lyrics of different genres, published between 1950 and 2019. After using a Random Forest model to identify keywords in the lyrics, the most relevant songs were selected and a logistic model was built to interpret the results.
 
@@ -34,7 +34,7 @@ Team project focusing on supervised learning and Word Embedding techniques for u
 
 &nbsp; 
 
-**📄Times series of energy consumption in the United States**
+**📄Times series: Energy consumption in the United States**
 
 **Times series (Italian version)** [See the project here](https://github.com/auroraMusitelli/Portfolio/blob/main/TimesSeriesEnergyConsumption_USA.pdf)
 
@@ -42,7 +42,7 @@ Team project focusing on supervised learning and Word Embedding techniques for u
 
 &nbsp; 
 
-**📄Economics for Data Science**
+**📄Economics for Data Science: Digital Marketing Campaigns**
 
 **Digital Marketing Campaigns (Italian version)** [See the project here](https://github.com/auroraMusitelli/Portfolio/blob/main/DigitalMarketingCampaigns.pdf)
 
@@ -50,9 +50,9 @@ Team project focusing on supervised learning and Word Embedding techniques for u
 
 &nbsp; 
 
-**📄Economics for Data Science**
+**📄Data Mining: House price prediction**
 
-**House Price Forecast Milano (Italian version)** [See the project here](https://github.com/auroraMusitelli/Portfolio/blob/main/HousePriceForecastMilano.pdf)
+**House Price Prediction Milano (Italian version)** [See the project here](https://github.com/auroraMusitelli/Portfolio/blob/main/HousePricePredictionMilano.pdf)
 
-📎 Tags: Data Mining | 
+📎 Tags: Data Mining | Ridge | Lasso | Elastic Net 
 
