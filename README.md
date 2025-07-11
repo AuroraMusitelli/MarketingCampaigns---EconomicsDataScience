@@ -47,3 +47,12 @@ Team project focusing on supervised learning and Word Embedding techniques for u
 **Digital Marketing Campaigns (Italian version)** [See the project here](https://github.com/auroraMusitelli/Portfolio/blob/main/DigitalMarketingCampaigns.pdf)
 
 📎 Tags: Multiple treatment causal analysis | Self-Organizing Map 
+
+&nbsp; 
+
+**📄Economics for Data Science**
+
+**House Price Forecast Milano (Italian version)** [See the project here](https://github.com/auroraMusitelli/Portfolio/blob/main/HousePriceForecastMilano.pdf)
+
+📎 Tags: Data Mining | 
+
