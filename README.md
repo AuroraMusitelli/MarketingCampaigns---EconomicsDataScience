@@ -36,7 +36,7 @@ Team project focusing on supervised learning and Word Embedding techniques for u
 
 **📄Times series of energy consumption in the United States**
 
-**Times series (Italian version)** [See the project here](https://github.com/auroraMusitelli/Portfolio/blob/main/TimesSeriesEnergyConsumption_USA.pdf)
+**Times series (Italian version)** [See the project here](https://github.com/auroraMusitelli/Portfolio/blob/main/DigitalMarketingCampaigns.pdf)
 
 📎 Tags: Times Series | ARIMA | SARIMA models | RegARIMA
 
