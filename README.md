@@ -36,7 +36,7 @@ Team project focusing on supervised learning and Word Embedding techniques for u
 
 **📄Times series of energy consumption in the United States**
 
-**Times series (Italian version)** [See the project here](https://github.com/auroraMusitelli/Portfolio/blob/main/DigitalMarketingCampaigns.pdf)
+**Times series (Italian version)** [See the project here](https://github.com/auroraMusitelli/Portfolio/blob/main/TimesSeriesEnergyConsumption_USA.pdf)
 
 📎 Tags: Times Series | ARIMA | SARIMA models | RegARIMA
 
@@ -44,6 +44,6 @@ Team project focusing on supervised learning and Word Embedding techniques for u
 
 **📄Economics for Data Science**
 
-**Digital Marketing Campaigns (Italian version)** [See the project here](https://github.com/auroraMusitelli/Portfolio/blob/main/TimesSeriesEnergyConsumption_USA.pdf)
+**Digital Marketing Campaigns (Italian version)** [See the project here](https://github.com/auroraMusitelli/Portfolio/blob/main/DigitalMarketingCampaigns.pdf)
 
 📎 Tags: Multiple treatment causal analysis | Self-Organizing Map 
