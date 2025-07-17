@@ -54,9 +54,9 @@ Team project analyzing three Digimart digital campaigns using causal analysis an
 
 &nbsp; 
 
-**📄Data Mining: House price prediction**
+**📄Data Mining: House price prediction Milano**
 
-Project to predict Milan home prices by minimizing MAE using statistical models, with focus on data exploration, feature engineering, and thorough pre-processing to detect anomalies and understand variables.
+Project to predict Milano home prices by minimizing MAE using statistical models, with focus on data exploration, feature engineering, and thorough pre-processing to detect anomalies and understand variables.
 
 **House Price Prediction Milano (Italian version)** [See the project here](https://github.com/auroraMusitelli/Portfolio/blob/main/HousePricePredictionMilano.pdf)
 
