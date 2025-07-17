@@ -39,6 +39,7 @@ Team project on supervised learning and Word Embedding to analyze unstructured d
 Analyzed USA energy consumption (1973–2024) using EIA monthly data to study trends in fossil vs. renewable use, historical impacts, and sectoral relationships. Applied time series models (ARIMA, SARIMA, RegARIMA) to capture system dynamics.
 
 **Energy consumption in the United States (Italian version)** [See the project here](https://github.com/auroraMusitelli/Portfolio/blob/main/TimesSeriesEnergyConsumption_USA.pdf)
+[See the code.R here](https://github.com/auroraMusitelli/Portfolio/blob/main/TimesSeriesEnergyConsumption_USA.R)
 
 📎 Tags: Times Series | ARIMA | SARIMA models | RegARIMA
 
@@ -59,6 +60,7 @@ Team project analyzing three Digimart digital campaigns using causal analysis an
 Project to predict Milano home prices by minimizing MAE using statistical models, with focus on data exploration, feature engineering, and thorough pre-processing to detect anomalies and understand variables.
 
 **House Price Prediction Milano (Italian version)** [See the project here](https://github.com/auroraMusitelli/Portfolio/blob/main/HousePricePredictionMilano.pdf)
+[See the code.R here](https://github.com/auroraMusitelli/Portfolio/blob/main/HousePricePredictionMilano.R)
 
 📎 Tags: Cross-Validation | Variable Selection | Ridge | Lasso | Elastic Net 
 
