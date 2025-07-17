@@ -28,7 +28,7 @@
 
 Team project on supervised learning and Word Embedding to analyze unstructured data. Developed 'MoodUp' a chatbot recommending songs based on users’ mood expressed in three words. Used song lyrics (1950–2019), Random Forest for keyword extraction, and logistic regression for result interpretation.
 
-**Chatbot "MoodUp" (Italian version)** [See the project here](https://github.com/auroraMusitelli/Portfolio/blob/main/MoodUp_report.pdf)
+[Chatbot "MoodUp" (Italian version)](https://github.com/auroraMusitelli/Portfolio/blob/main/MoodUp_report.pdf)
 
 📎 Tags: Random Forest | Neural Networks | Word Embedding 
 
@@ -38,8 +38,9 @@ Team project on supervised learning and Word Embedding to analyze unstructured d
 
 Analyzed USA energy consumption (1973–2024) using EIA monthly data to study trends in fossil vs. renewable use, historical impacts, and sectoral relationships. Applied time series models (ARIMA, SARIMA, RegARIMA) to capture system dynamics.
 
-**Energy consumption in the United States (Italian version)** [See the project here](https://github.com/auroraMusitelli/Portfolio/blob/main/TimesSeriesEnergyConsumption_USA.pdf) 
-[See the code.R here](https://github.com/auroraMusitelli/Portfolio/blob/main/TimesSeriesEnergyConsumption_USA.R)
+[Energy consumption in the United States (Italian version)](https://github.com/auroraMusitelli/Portfolio/blob/main/TimesSeriesEnergyConsumption_USA.pdf) 
+
+[R Code Script (code.R)](https://github.com/auroraMusitelli/Portfolio/blob/main/TimesSeriesEnergyConsumption_USA.R)
 
 📎 Tags: Times Series | ARIMA | SARIMA models | RegARIMA
 
@@ -49,7 +50,7 @@ Analyzed USA energy consumption (1973–2024) using EIA monthly data to study tr
 
 Team project analyzing three Digimart digital campaigns using causal analysis and self-organizing maps to assess impact on user engagement, aiming to optimize future campaign strategies.
 
-**Digital Marketing Campaigns (Italian version)** [See the project here](https://github.com/auroraMusitelli/Portfolio/blob/main/DigitalMarketingCampaigns.pdf)
+[Digital Marketing Campaigns (Italian version)](https://github.com/auroraMusitelli/Portfolio/blob/main/DigitalMarketingCampaigns.pdf)
 
 📎 Tags: Multiple treatment causal analysis | Self-Organizing Map 
 
@@ -60,6 +61,7 @@ Team project analyzing three Digimart digital campaigns using causal analysis an
 Project to predict Milano home prices by minimizing MAE using statistical models, with focus on data exploration, feature engineering, and thorough pre-processing to detect anomalies and understand variables.
 
 [House Price Prediction Milano (Italian version)](https://github.com/auroraMusitelli/Portfolio/blob/main/HousePricePredictionMilano.pdf)
+
 [R Code Script (code.R)](https://github.com/auroraMusitelli/Portfolio/blob/main/HousePricePredictionMilano.R)
 
 📎 Tags: Cross-Validation | Variable Selection | Ridge | Lasso | Elastic Net 
