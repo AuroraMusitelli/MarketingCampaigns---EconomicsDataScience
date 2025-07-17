@@ -26,7 +26,7 @@
 
 **📄Machine Learning: Chatbot "MoodUp"**
 
-Team project focusing on supervised learning and Word Embedding techniques for unstructured data analysis. The main goal was to develop a chatbot called 'MoodUp' that can recommend songs based on the mood expressed by users through three words entered. A dataset of song lyrics of different genres, published between 1950 and 2019. After using a Random Forest model to identify keywords in the lyrics, the most relevant songs were selected and a logistic model was built to interpret the results.
+Team project on supervised learning and Word Embedding to analyze unstructured data. Developed 'MoodUp' a chatbot recommending songs based on users’ mood expressed in three words. Used song lyrics (1950–2019), Random Forest for keyword extraction, and logistic regression for result interpretation.
 
 **Chatbot "MoodUp" (Italian version)** [See the project here](https://github.com/auroraMusitelli/Portfolio/blob/main/MoodUp_report.pdf)
 
@@ -36,7 +36,7 @@ Team project focusing on supervised learning and Word Embedding techniques for u
 
 **📄Times series: Energy consumption in the United States**
 
-The project analyzes energy consumption in the United States from 1973 to 2024 using monthly data from the EIA. The goal is to study the evolution of the use of fossil and renewable energy sources, the effects of historical events on these consumption patterns, and the long-term relationship between the two types of energy sources in various sectors. Time series analysis (ARIMA, SARIMA, RegARIMA) allows for understanding trends and dynamics of the energy system.
+Analyzed USA energy consumption (1973–2024) using EIA monthly data to study trends in fossil vs. renewable use, historical impacts, and sectoral relationships. Applied time series models (ARIMA, SARIMA, RegARIMA) to capture system dynamics.
 
 **Energy consumption in the United States (Italian version)** [See the project here](https://github.com/auroraMusitelli/Portfolio/blob/main/TimesSeriesEnergyConsumption_USA.pdf)
 
@@ -46,7 +46,7 @@ The project analyzes energy consumption in the United States from 1973 to 2024 u
 
 **📄Economics for Data Science: Digital Marketing Campaigns**
 
-Team project focused on analyzing the effectiveness of three digital campaigns launched by Digimart, a rapidly growing Italian e-commerce company. Using causal analysis and self-organizing map techniques, we evaluated each campaign’s impact on user engagement (clicks). The ultimate goal is to provide practical recommendations for optimizing the targeting, design, and distribution of future campaigns.
+Team project analyzing three Digimart digital campaigns using causal analysis and self-organizing maps to assess impact on user engagement, aiming to optimize future campaign strategies.
 
 **Digital Marketing Campaigns (Italian version)** [See the project here](https://github.com/auroraMusitelli/Portfolio/blob/main/DigitalMarketingCampaigns.pdf)
 
@@ -56,7 +56,7 @@ Team project focused on analyzing the effectiveness of three digital campaigns l
 
 **📄Data Mining: House price prediction**
 
-The project aims to predict the sale price of homes in Milan by minimizing the MAE error using statistical models. The analysis focused on data exploration and feature engineering. A careful pre-processing phase was conducted to detect anomalies and understand the nature of the variables.
+Project to predict Milan home prices by minimizing MAE using statistical models, with focus on data exploration, feature engineering, and thorough pre-processing to detect anomalies and understand variables.
 
 **House Price Prediction Milano (Italian version)** [See the project here](https://github.com/auroraMusitelli/Portfolio/blob/main/HousePricePredictionMilano.pdf)
 
