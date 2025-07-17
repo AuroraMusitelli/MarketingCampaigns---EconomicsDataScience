@@ -60,5 +60,5 @@ The project aims to predict the sale price of homes in Milan by minimizing the M
 
 **House Price Prediction Milano (Italian version)** [See the project here](https://github.com/auroraMusitelli/Portfolio/blob/main/HousePricePredictionMilano.pdf)
 
-📎 Tags: Data Mining | Ridge | Lasso | Elastic Net 
+📎 Tags: Cross-Validation | Variable Selection | Ridge | Lasso | Elastic Net 
 
