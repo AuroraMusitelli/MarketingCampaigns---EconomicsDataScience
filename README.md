@@ -60,9 +60,11 @@ Project to predict Milano home prices by minimizing MAE using statistical models
 
 **📄Bachelor's thesis: Metaverse Analysis how it is perceived by users of the social media Twitter**
 
+This thesis explores public perception and understanding of the Metaverse by analyzing unstructured data from Twitter using text mining techniques.
+
 [Metaverse Analysis (Italian version)](https://github.com/AuroraMusitelli/Portfolio/blob/main/tesi_MetaverseAnalysis.pdf)
 
-📎 Tags: Sentiment Analysis | 
+📎 Tags: Sentiment Analysis | Social Media Analytics | Topic Modelling
 
 &nbsp; 
 
@@ -78,8 +80,10 @@ Team project on supervised learning and Word Embedding to analyze unstructured d
 
 **📄Computational Statistics: Churn Analysis**
 
-Team project 
+Team project aimed at performing a churn analysis for Orange Telecom, predicting whether a customer will stay with the company or leave. 
 
 [Churn Analysis (Italian version)](https://github.com/AuroraMusitelli/Portfolio/blob/main/ChurnAnalysis.pdf)
 
-📎 Tags: 
+[R Code Script (code.R)](https://github.com/AuroraMusitelli/Portfolio/blob/main/ChurnAnalysis.Rmd)
+
+📎 Tags: Churn Analysis | Different models implemented: Tree, Random Forest, Neural Networks
