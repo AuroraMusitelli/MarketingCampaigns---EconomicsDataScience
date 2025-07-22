@@ -24,16 +24,6 @@
 
 ## 📌 University Projects
 
-**📄Machine Learning: Chatbot "MoodUp"**
-
-Team project on supervised learning and Word Embedding to analyze unstructured data. Developed 'MoodUp' a chatbot recommending songs based on users’ mood expressed in three words. Used song lyrics (1950–2019), Random Forest for keyword extraction, and logistic regression for result interpretation.
-
-[Chatbot "MoodUp" (Italian version)](https://github.com/AuroraMusitelli/Portfolio/blob/main/MoodUp_report.pdf)
-
-📎 Tags: Random Forest | Neural Networks | Word Embedding 
-
-&nbsp; 
-
 **📄Times series: Energy consumption in the United States**
 
 Analyzed USA energy consumption (1973–2024) using EIA monthly data to study trends in fossil vs. renewable use, historical impacts, and sectoral relationships. Applied time series models (ARIMA, SARIMA, RegARIMA) to capture system dynamics.
@@ -66,3 +56,30 @@ Project to predict Milano home prices by minimizing MAE using statistical models
 
 📎 Tags: Cross-Validation | Variable Selection | Ridge | Lasso | Elastic Net 
 
+&nbsp; 
+
+**📄Bachelor's thesis: Metaverse Analysis how it is perceived by users of the social media Twitter**
+
+[Metaverse Analysis (Italian version)](https://github.com/AuroraMusitelli/Portfolio/blob/main/tesi_MetaverseAnalysis.pdf)
+
+📎 Tags: Sentiment Analysis | 
+
+&nbsp; 
+
+**📄Machine Learning: Chatbot "MoodUp"**
+
+Team project on supervised learning and Word Embedding to analyze unstructured data. Developed 'MoodUp' a chatbot recommending songs based on users’ mood expressed in three words. Used song lyrics (1950–2019), Random Forest for keyword extraction, and logistic regression for result interpretation.
+
+[Chatbot "MoodUp" (Italian version)](https://github.com/AuroraMusitelli/Portfolio/blob/main/MoodUp_report.pdf)
+
+📎 Tags: Random Forest | Neural Networks | Word Embedding 
+
+&nbsp; 
+
+**📄Computational Statistics: Churn Analysis**
+
+Team project 
+
+[Churn Analysis (Italian version)](https://github.com/AuroraMusitelli/Portfolio/blob/main/ChurnAnalysis.pdf)
+
+📎 Tags: 
