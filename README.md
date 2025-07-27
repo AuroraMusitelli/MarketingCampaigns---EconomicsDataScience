@@ -74,9 +74,15 @@ Team project on supervised learning and Word Embedding to analyze unstructured d
 
 [Chatbot "MoodUp" (Italian version)](https://github.com/AuroraMusitelli/Portfolio/blob/main/MoodUp_report.pdf)
 
-[Telegram Chatbot link](https://t.me/MoodUp_chatbot)
+[💬 Telegram Chatbot link](https://t.me/MoodUp_chatbot)
 
-📎 Tags: Random Forest | Neural Networks | Word Embedding 
+[🔧 Main Script (MoodUpBot.py)](https://github.com/AuroraMusitelli/Portfolio/blob/main/MoodUpBot.py)
+[📊 Topic Analysis 1](https://github.com/AuroraMusitelli/Portfolio/blob/main/TopicAnalysis1.ipynb)
+[📊 Topic Analysis 2](https://github.com/AuroraMusitelli/Portfolio/blob/main/TopicAnalysis2.ipynb)
+[📊 Topic Analysis 3](https://github.com/AuroraMusitelli/Portfolio/blob/main/TopicAnalysis3.ipynb)
+
+
+📎 Tags: Random Forest | Topic Analysis | Word Embedding 
 
 &nbsp; 
 
