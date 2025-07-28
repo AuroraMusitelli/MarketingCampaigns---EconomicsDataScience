@@ -22,25 +22,4 @@
 **Business Development Analyst** CMS SpA *(Feb 2023 – Sept 2023)*  
 
 
-## 📌 University Projects
 
-
-**📄Economics for Data Science: Digital Marketing Campaigns**
-
-Team project analyzing three Digimart digital campaigns using causal analysis and self-organizing maps to assess impact on user engagement, aiming to optimize future campaign strategies.
-
-[Digital Marketing Campaigns (Italian version)](https://github.com/AuroraMusitelli/Portfolio/blob/main/DigitalMarketingCampaigns.pdf)
-
-📎 Tags: Multiple treatment causal analysis | Self-Organizing Map | Marketing Campaigns
-
-&nbsp;  
-
-**📄Computational Statistics: Churn Analysis**
-
-Team project aimed at performing a churn analysis for Orange Telecom, predicting whether a customer will stay with the company or leave. 
-
-[Churn Analysis (Italian version)](https://github.com/AuroraMusitelli/Portfolio/blob/main/ChurnAnalysis.pdf)
-
-[R Code Script (code.R)](https://github.com/AuroraMusitelli/Portfolio/blob/main/ChurnAnalysis.Rmd)
-
-📎 Tags: Churn Analysis | Different models implemented: Tree, Random Forest, Neural Networks
