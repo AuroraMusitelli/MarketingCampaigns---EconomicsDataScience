@@ -1,25 +1,8 @@
-# Portfolio
+**📄Economics for Data Science: Digital Marketing Campaigns**
 
-**Contact Information**
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aurora-musitelli-bb1464195/)
-[![Gmail](https://img.shields.io/badge/Gmail-red?logo=gmail&logoColor=white)](mailto:musitelliaurora@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white)](https://github.com/AuroraMusitelli)
+Team project analyzing three Digimart digital campaigns using causal analysis and self-organizing maps to assess impact on user engagement, aiming to optimize future campaign strategies.
 
-**Hi, I'm Aurora Musitelli!**
-* Passionate about Business Analytics, with a solid background in statistics. I enjoy finding insights in data and transforming them into concrete strategies.
-* In my free time? Mountains, photography and sports help me maintain a balance!
+[Digital Marketing Campaigns (Italian version)](https://github.com/AuroraMusitelli/Portfolio/blob/main/DigitalMarketingCampaigns.pdf)
 
-## 🎓 Education
-* Master's Degree, Statistical and Economic Sciences (LM-82) | University of Milano-Bicocca *(Oct 2023 – Present)*
-* Bachelor's Degree, Statistics (L-41) | University of Milano-Bicocca *(Oct 2019 – Jan 2023)*
-
-
-## 📌 Technical Skills
-* Languages & Tools: R, Python
-
-
-## 📌 Work Experience
-**Business Development Analyst** CMS SpA *(Feb 2023 – Sept 2023)*  
-
-
+📎 Tags: Multiple treatment causal analysis | Self-Organizing Map | Marketing Campaigns
 
