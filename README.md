@@ -24,17 +24,6 @@
 
 ## 📌 University Projects
 
-**📄Times series: Energy consumption in the United States**
-
-Analyzed USA energy consumption (1973–2024) using EIA monthly data to study trends in fossil vs. renewable use, historical impacts, and sectoral relationships. Applied time series models (ARIMA, SARIMA, RegARIMA) to capture system dynamics.
-
-[Energy consumption in the United States (Italian version)](https://github.com/AuroraMusitelli/Portfolio/blob/main/TimesSeriesEnergyConsumption_USA.pdf) 
-
-[R Code Script (code.R)](https://github.com/AuroraMusitelli/Portfolio/blob/main/TimesSeriesEnergyConsumption_USA.R)
-
-📎 Tags: Times Series | ARIMA | SARIMA models | RegARIMA
-
-&nbsp; 
 
 **📄Economics for Data Science: Digital Marketing Campaigns**
 
@@ -44,45 +33,7 @@ Team project analyzing three Digimart digital campaigns using causal analysis an
 
 📎 Tags: Multiple treatment causal analysis | Self-Organizing Map | Marketing Campaigns
 
-&nbsp; 
-
-**📄Data Mining: House price prediction Milano**
-
-Project to predict Milano home prices by minimizing MAE using statistical models, with focus on data exploration, feature engineering, and thorough pre-processing to detect anomalies and understand variables.
-
-[House Price Prediction Milano (Italian version)](https://github.com/AuroraMusitelli/Portfolio/blob/main/HousePricePredictionMilano.pdf)
-
-[R Code Script (code.R)](https://github.com/AuroraMusitelli/Portfolio/blob/main/HousePricePredictionMilano.R)
-
-📎 Tags: Cross-Validation | Variable Selection | Ridge | Lasso | Elastic Net 
-
-&nbsp; 
-
-**📄Bachelor's thesis: Metaverse Analysis how it is perceived by users of the social media Twitter**
-
-This thesis explores public perception and understanding of the Metaverse by analyzing unstructured data from Twitter using text mining techniques.
-
-[Metaverse Analysis (Italian version)](https://github.com/AuroraMusitelli/Portfolio/blob/main/tesi_MetaverseAnalysis.pdf)
-
-📎 Tags: Sentiment Analysis | Social Media Analytics | Topic Modelling
-
-&nbsp; 
-
-**📄Machine Learning: Chatbot "MoodUp"**
-
-Team project on supervised learning and Word Embedding to analyze unstructured data. Developed 'MoodUp' a chatbot recommending songs based on users’ mood expressed in three words. Used song lyrics (1950–2019), Random Forest for keyword extraction, and logistic regression for result interpretation.
-
-[Chatbot "MoodUp" (Italian version)](https://github.com/AuroraMusitelli/Portfolio/blob/main/MoodUp_report.pdf)
-
-[Main Script (MoodUpBot.py)](https://github.com/AuroraMusitelli/Portfolio/blob/main/MoodUpBot.py)
-[📊 Topic Analysis 1](https://github.com/AuroraMusitelli/Portfolio/blob/main/TopicAnalysis1.ipynb)
-[📊 Topic Analysis 2](https://github.com/AuroraMusitelli/Portfolio/blob/main/TopicAnalysis2.ipynb)
-[📊 Topic Analysis 3](https://github.com/AuroraMusitelli/Portfolio/blob/main/TopicAnalysis3.ipynb)
-
-
-📎 Tags: Random Forest | Topic Analysis | Word Embedding 
-
-&nbsp; 
+&nbsp;  
 
 **📄Computational Statistics: Churn Analysis**
 
