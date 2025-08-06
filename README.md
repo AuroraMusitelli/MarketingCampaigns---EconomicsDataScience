@@ -4,7 +4,7 @@ Team project analyzing three Digimart digital campaigns using causal analysis an
 
 [Digital Marketing Campaigns (Italian version)](https://github.com/AuroraMusitelli/Portfolio/blob/main/DigitalMarketingCampaigns.pdf)
 
-[Digital Marketing Campaigns (Italian version)](https://github.com/AuroraMusitelli/Portfolio/blob/main/DigitalMarketingCampaigns.R)
+[R Code Script (code.R)](https://github.com/AuroraMusitelli/Portfolio/blob/main/DigitalMarketingCampaigns.Rmd)
 
 📎 Tags: Multiple treatment causal analysis | Self-Organizing Map | Marketing Campaigns
 
