@@ -5,7 +5,6 @@ dati <- read.csv("data.csv")
 
 
 #Explorative analysis and preprocessing
-
 dati$gender <- as.factor(dati$gender)
 dati$region <- as.factor(dati$region)
 dati$device_type <- as.factor(dati$device_type)
@@ -27,26 +26,26 @@ ggplot(dati, aes(x = group, y = clicks)) +
   geom_boxplot(fill = "skyblue") +
   theme_minimal()
 #1. Le campagne sembrano avere effetto... ma non sempre positivo
-#Tutti i gruppi con esposizione a campagne (Cam1, Cam2, Cam3, combinazioni) mostrano una distribuzione di click mediamente più alta rispetto al gruppo None (nessuna esposizione).
-#Tuttavia, l'effetto non è uniforme: alcune combinazioni sembrano meno efficaci o addirittura peggiori del singolo trattamento.
+#Tutti i gruppi con esposizione a campagne (Cam1, Cam2, Cam3, combinazioni) mostrano una distribuzione di click mediamente piÃ¹ alta rispetto al gruppo None (nessuna esposizione).
+#Tuttavia, l'effetto non Ã¨ uniforme: alcune combinazioni sembrano meno efficaci o addirittura peggiori del singolo trattamento.
 
-#2. Le campagne più promettenti (visivamente)
-#Cam1_3 e Cam1_2_3 sembrano avere mediane più alte dei click rispetto agli altri gruppi. Questo può suggerire che combinazioni di campagne abbiano un effetto cumulativo o sinergico.
-#Anche Cam1 da sola sembra leggermente più performante della media.
+#2. Le campagne piÃ¹ promettenti (visivamente)
+#Cam1_3 e Cam1_2_3 sembrano avere mediane piÃ¹ alte dei click rispetto agli altri gruppi. Questo puÃ² suggerire che combinazioni di campagne abbiano un effetto cumulativo o sinergico.
+#Anche Cam1 da sola sembra leggermente piÃ¹ performante della media.
 
-#3. Il gruppo None non è il più basso
-#Curiosamente, la mediana dei click nel gruppo None non è la più bassa. Questo potrebbe suggerire che:
-#la selezione per esposizione alle campagne non è casuale,
+#3. Il gruppo None non Ã¨ il piÃ¹ basso
+#Curiosamente, la mediana dei click nel gruppo None non Ã¨ la piÃ¹ bassa. Questo potrebbe suggerire che:
+#la selezione per esposizione alle campagne non Ã¨ casuale,
 #oppure alcune campagne non hanno avuto un impatto positivo sul comportamento degli utenti.
 
-#4. Variabilit� e outlier
-#Alcuni gruppi (soprattutto Cam1, Cam3, e None) mostrano una grande variabilit� e 
-#molti outlier potrebbe esserci eterogeneit� nei segmenti di utenti oppure alcuni utenti iperattivi.
+#4. Variabilità e outlier
+#Alcuni gruppi (soprattutto Cam1, Cam3, e None) mostrano una grande variabilità e 
+#molti outlier potrebbe esserci eterogeneità nei segmenti di utenti oppure alcuni utenti iperattivi.
 
 
 #Serve un'analisi causale: le differenze visibili nei boxplot non bastano per dire che 
-#una campagna è più efficace. Potrebbero esserci fattori confondenti (es. et�, income, internet usage...).
-#quello che possiamo dire inizialmente è 
+#una campagna Ã¨ piÃ¹ efficace. Potrebbero esserci fattori confondenti (es. età, income, internet usage...).
+#quello che possiamo dire inizialmente Ã¨ 
 #Cam1 e Cam1_3 sembrano efficaci,
 #la sola esposizione a Cam2 non mostra particolari benefici.
 
@@ -56,29 +55,29 @@ ggplot(dati, aes(x = group, y = clicks)) +
 
 numeric_vars <- dati[, sapply(dati, is.numeric)]
 ggcorrplot::ggcorrplot(cor(numeric_vars), lab=TRUE, type="upper")
-#questo grafico suggerisce che tra income e age vi è una correlazione positiva alta
+#questo grafico suggerisce che tra income e age vi Ã¨ una correlazione positiva alta
 #piu sei vecchio piu guadagni (logico)
 #tra age e clicks correlazione negetiva indicando che piu sei vecchio meno click esegui 
 #idem tra income e clicks suggerendo che 
-#può riflettere una maggiore propensione all'interazione digitale da parte dei giovani o una maggiore attrattivit� delle campagne per target economicamente più sensibili.
+#puÃ² riflettere una maggiore propensione all'interazione digitale da parte dei giovani o una maggiore attrattività delle campagne per target economicamente piÃ¹ sensibili.
 #nessuna correlazione tra le altre  Questo significa che, almeno in media, queste variabili non sembrano associate ai click in modo lineare.
 
-#Et� e reddito sono fortemente correlati tra loro (0.79) --> multicollinearit� eliminare??
+#Età e reddito sono fortemente correlati tra loro (0.79) --> multicollinearità eliminare??
 
 #IMPLICAZIONI STRATEGICHE:
-# Le campagne potrebbero essere pi� efficaci se mirate a utenti pi� giovani e con reddito medio-basso.
-# et� sembra un predittore forte di comportamento (click), quindi potresti stratificare la tua analisi causale anche per fasce d'et�.
+# Le campagne potrebbero essere più efficaci se mirate a utenti più giovani e con reddito medio-basso.
+# età sembra un predittore forte di comportamento (click), quindi potresti stratificare la tua analisi causale anche per fasce d'età.
 
 
 #CLIKCS PER DEVICE_TYPE
 ggplot(dati, aes(x = device_type, y = clicks)) +
   geom_boxplot() +
   facet_wrap(~ region) + theme_bw()
-#le campagne sono più efficaci su dispositivi mobili, o che gli utenti mobile sono pi� reattivi in tutte e tre le regioni
-# il device sembra essere più importante della regione geografica nel determinare engagement. perche non ci sono grosse differenze tra regioni italiane
+#le campagne sono piÃ¹ efficaci su dispositivi mobili, o che gli utenti mobile sono più reattivi in tutte e tre le regioni
+# il device sembra essere piÃ¹ importante della regione geografica nel determinare engagement. perche non ci sono grosse differenze tra regioni italiane
 
 #IMPLICAZIONI 
-#Le campagne potrebbero essere ottimizzate per dispositivi mobili, dato che l'engagement è sistematicamente più alto su Mobile e Tablet.
+#Le campagne potrebbero essere ottimizzate per dispositivi mobili, dato che l'engagement Ã¨ sistematicamente piÃ¹ alto su Mobile e Tablet.
 #Le differenze tra regioni sono molto contenute, quindi si potrebbe focalizzare l'analisi causale principalmente sul tipo di dispositivo.
 
 ggplot(dati, aes(x = income, y = clicks)) +
@@ -86,30 +85,30 @@ ggplot(dati, aes(x = income, y = clicks)) +
   geom_smooth(method = "lm", color = "red")
 
 #IMPLICAZIONI POSSIBILI
-#Gli utenti con redditi più bassi sono più reattivi alle campagne forse perché:
-#sono più sensibili alle promozioni, cercano più attivamente offerte, navigano in contesti più mirati all'acquisto.
-#Gli utenti con redditi elevati cliccano meno, forse perché:
+#Gli utenti con redditi piÃ¹ bassi sono piÃ¹ reattivi alle campagne forse perchÃ©:
+#sono piÃ¹ sensibili alle promozioni, cercano piÃ¹ attivamente offerte, navigano in contesti piÃ¹ mirati all'acquisto.
+#Gli utenti con redditi elevati cliccano meno, forse perchÃ©:
 #ricevono meno esposizione, sono meno interessati a campagne generaliste, acquistano direttamente senza cliccare annunci.
 
 #### Implicazione per la strategia in base ai dati iniziali (IPOTESI)####
-#Non tutte le campagne sono efficaci: è necessario valutare singolarmente le campagne per capire quali funzionano.
+#Non tutte le campagne sono efficaci: Ã¨ necessario valutare singolarmente le campagne per capire quali funzionano.
 #Le combinazioni Cam1+3 sembrano sinergiche, potrebbero essere riutilizzate o estese.
 #serve una valutazione causale per confermare l'efficacia delle campagne rispetto al gruppo di controllo.
-#Gli utenti giovani e con reddito più basso sono pi� reattivi vanno maggiormente targettizzati nelle future campagne.
+#Gli utenti giovani e con reddito piÃ¹ basso sono più reattivi vanno maggiormente targettizzati nelle future campagne.
 #Ottimizzare tutte le campagne per Mobile e Tablet.
-#Il tipo di dispositivo è un driver più forte del comportamento rispetto alla regione.
-#Il Desktop è il segmento meno reattivo: le campagne dovrebbero essere diversamente progettate o ridimensionate per questi utenti.
-#Potresti raccomandare al team marketing di differenziare le campagne in base al reddito, puntando a strategie più aggressive o personalizzate per il segmento a basso reddito (es. coupon, bundle, offerte-lampo), e più raffinate o “di valore” per gli utenti con reddito elevato.
+#Il tipo di dispositivo Ã¨ un driver piÃ¹ forte del comportamento rispetto alla regione.
+#Il Desktop Ã¨ il segmento meno reattivo: le campagne dovrebbero essere diversamente progettate o ridimensionate per questi utenti.
+#Potresti raccomandare al team marketing di differenziare le campagne in base al reddito, puntando a strategie piÃ¹ aggressive o personalizzate per il segmento a basso reddito (es. coupon, bundle, offerte-lampo), e piÃ¹ raffinate o â€œdi valoreâ€ per gli utenti con reddito elevato.
 
 #### Analisi iniziale approfondita su CAMPAGNA 2 ####
-#Verificare e approfondire proprio questo caso, sia per confermare la delusione, sia per capire perché è andata così.
+#Verificare e approfondire proprio questo caso, sia per confermare la delusione, sia per capire perchÃ© Ã¨ andata cosÃ¬.
 
 ggplot(subset(dati, group %in% c("Cam2", "Cam1", "Cam3")), 
        aes(x = group, y = clicks)) +
   geom_boxplot(fill = "skyblue") +
   theme_minimal() +
   ggtitle("Distribuzione dei click per Campagne 1, 2 e 3")
-#è il piu basso
+#Ã¨ il piu basso
 
 aggregate(clicks ~ group, data = dati, FUN = mean)
 
@@ -123,8 +122,8 @@ aggregate(clicks ~ group, data = dati, FUN = mean)
 #probabilmente hanno target diversi, tono comunicativo incoerente o contenuti ridondanti che confondono utente
 
 #eccezioni positive#
-#Al contrario, la combinazione Cam1_3 genera 60 click medi (più di entrambe le campagne da sole), e Cam1_2_3 arriva addirittura a 89.
-#Questo suggerisce che Cam1 e Cam3 lavorano bene insieme, forse perché complementari nel tono o nel contenuto.
+#Al contrario, la combinazione Cam1_3 genera 60 click medi (piÃ¹ di entrambe le campagne da sole), e Cam1_2_3 arriva addirittura a 89.
+#Questo suggerisce che Cam1 e Cam3 lavorano bene insieme, forse perchÃ© complementari nel tono o nel contenuto.
 
 
 #conclusione Non tutte le combinazioni di campagne portano a un effetto sinergico.
@@ -132,7 +131,7 @@ aggregate(clicks ~ group, data = dati, FUN = mean)
 #Altre, come Cam1 + Cam3, mostrano un chiaro effetto potenziante.
 
 
-#### Causalit� tra clicks e campagna ####
+#### Causalità tra clicks e campagna ####
 # 0. Librerie necessarie
 library(nnet)      # multinomial logistic regression
 library(cobalt)    # balance diagnostics
@@ -146,13 +145,13 @@ dati$group <- as.factor(dati$group)
 ps_model <- multinom(group ~ age + income + education_years + device_type + region + internet_usage_hours,
                      data = dati, trace = FALSE)
 
-# 3. Calcolo delle probabilit� predette (generalized propensity scores)
+# 3. Calcolo delle probabilità predette (generalized propensity scores)
 ps_pred <- predict(ps_model, type = "probs")
 
 # 4. Rinomina le colonne con i livelli effettivi del trattamento
 colnames(ps_pred) <- levels(dati$group)
 
-# 5. Aggiungi le probabilit� al dataframe
+# 5. Aggiungi le probabilità al dataframe
 dati <- bind_cols(dati, as_tibble(ps_pred))
 
 # 6. Calcolo dei pesi IPTW generico
@@ -195,14 +194,14 @@ love.plot(
 # 8. Stima effetti del trattamento (vs gruppo di riferimento: None)
 dati$group <- relevel(dati$group, ref = "None")  # 'None' come gruppo di controllo
 
-# Regressione naïve (senza pesi)
+# Regressione naÃ¯ve (senza pesi)
 naive_mod <- lm(clicks ~ group, data = dati)
 naive_est <- coef(summary(naive_mod))
 naive_results <- tibble(
   Treatment = rownames(naive_est)[-1],
   Estimate  = naive_est[-1, "Estimate"],
   SE        = naive_est[-1, "Std. Error"],
-  Method    = "Naïve"
+  Method    = "NaÃ¯ve"
 )
 
 # Regressione pesata IPTW
@@ -312,3 +311,4 @@ final_results <- bind_rows(results_list)
 
 # Stampo per controllo
 print(final_results)
+
